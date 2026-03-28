@@ -1,0 +1,27 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.gallery img {
+  width: 360px;
+  height: 200px;
+}
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.info p {
+  display: grid;
+}
+form {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 36px 0 32px 0;
+}
